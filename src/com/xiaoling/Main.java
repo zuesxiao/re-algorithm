@@ -1,6 +1,6 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer20;
+import com.xiaoling.leetcode.offer.Offer10;
 
 /**
  * @author xiaoling
@@ -8,7 +8,7 @@ import com.xiaoling.leetcode.offer.Offer20;
 public class Main {
 
     public static void main(String[] args) {
-        Offer20 offer20 = new Offer20();
-        System.out.println(offer20.isNumber(".e8"));
+        Offer10 q = new Offer10();
+        System.out.println(q.fib(93));
     }
 }
