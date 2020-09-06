@@ -6,6 +6,9 @@ import java.util.Arrays;
 /**
  * 剑指 Offer 10- I. 斐波那契数列
  * https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/
+ * <p>
+ * 剑指 Offer 10- II. 青蛙跳台阶问题
+ * https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
  *
  * @author xiaoling
  */
@@ -39,7 +42,17 @@ public class Offer10 {
 
     public int fib2(int n) {
         int a = 0, b = 1, sum;
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
+            sum = (a + b) % 1000000007;
+            a = b;
+            b = sum;
+        }
+        return a;
+    }
+
+    public int numWays(int n) {
+        int a = 0, b = 1, sum;
+        for (int i = 0; i < n; i++) {
             sum = (a + b) % 1000000007;
             a = b;
             b = sum;
