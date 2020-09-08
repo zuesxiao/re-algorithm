@@ -1,6 +1,6 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer10;
+import com.xiaoling.leetcode.offer.Offer12;
 
 /**
  * @author xiaoling
@@ -8,7 +8,15 @@ import com.xiaoling.leetcode.offer.Offer10;
 public class Main {
 
     public static void main(String[] args) {
-        Offer10 q = new Offer10();
-        System.out.println(q.fib(93));
+        Offer12 q = new Offer12();
+
+        char[][] board = new char[][]{
+                {'A', 'B', 'C', 'E'},
+                {'S', 'F', 'E', 'S'},
+                {'A', 'D', 'E', 'E'}
+        };
+
+
+        System.out.println(q.exist(board, "ABCESEEEFS"));
     }
 }
