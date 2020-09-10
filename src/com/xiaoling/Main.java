@@ -1,6 +1,6 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer12;
+import com.xiaoling.leetcode.solution.Q40;
 
 /**
  * @author xiaoling
@@ -8,15 +8,9 @@ import com.xiaoling.leetcode.offer.Offer12;
 public class Main {
 
     public static void main(String[] args) {
-        Offer12 q = new Offer12();
+        Q40 q = new Q40();
 
-        char[][] board = new char[][]{
-                {'A', 'B', 'C', 'E'},
-                {'S', 'F', 'E', 'S'},
-                {'A', 'D', 'E', 'E'}
-        };
-
-
-        System.out.println(q.exist(board, "ABCESEEEFS"));
+        int[] nums = new int[]{1, 1, 2, 5, 6, 7, 10};
+        System.out.println(q.combinationSum2(nums, 8));
     }
 }
