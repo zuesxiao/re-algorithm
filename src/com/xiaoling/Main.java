@@ -1,6 +1,6 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.solution.Q40;
+import com.xiaoling.leetcode.offer.Offer13;
 
 /**
  * @author xiaoling
@@ -8,9 +8,8 @@ import com.xiaoling.leetcode.solution.Q40;
 public class Main {
 
     public static void main(String[] args) {
-        Q40 q = new Q40();
+        Offer13 q = new Offer13();
 
-        int[] nums = new int[]{1, 1, 2, 5, 6, 7, 10};
-        System.out.println(q.combinationSum2(nums, 8));
+        System.out.println(q.movingCount(10, 10, 10));
     }
 }
