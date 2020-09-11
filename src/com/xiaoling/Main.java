@@ -1,6 +1,6 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer13;
+import com.xiaoling.leetcode.solution.Q216;
 
 /**
  * @author xiaoling
@@ -8,8 +8,8 @@ import com.xiaoling.leetcode.offer.Offer13;
 public class Main {
 
     public static void main(String[] args) {
-        Offer13 q = new Offer13();
+        Q216 q = new Q216();
 
-        System.out.println(q.movingCount(10, 10, 10));
+        System.out.println(q.combinationSum3(3, 9));
     }
 }
