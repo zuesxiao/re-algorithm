@@ -1,6 +1,8 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.solution.Q216;
+import com.xiaoling.leetcode.offer.Offer21;
+
+import java.util.Arrays;
 
 /**
  * @author xiaoling
@@ -8,8 +10,9 @@ import com.xiaoling.leetcode.solution.Q216;
 public class Main {
 
     public static void main(String[] args) {
-        Q216 q = new Q216();
+        Offer21 q = new Offer21();
 
-        System.out.println(q.combinationSum3(3, 9));
+        int[] nums = new int[]{1, 2, 3, 4, 5, 7};
+        System.out.println(Arrays.toString(q.exchange(nums)));
     }
 }
