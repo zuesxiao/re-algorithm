@@ -1,8 +1,7 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer21;
-
-import java.util.Arrays;
+import com.xiaoling.common.TreeNode;
+import com.xiaoling.leetcode.offer.Offer26;
 
 /**
  * @author xiaoling
@@ -10,9 +9,30 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        Offer21 q = new Offer21();
+        Offer26 q = new Offer26();
 
-        int[] nums = new int[]{1, 2, 3, 4, 5, 7};
-        System.out.println(Arrays.toString(q.exchange(nums)));
+        TreeNode a = new TreeNode(4,
+                new TreeNode(2,
+                        new TreeNode(4,
+                                new TreeNode(8),
+                                new TreeNode(9)),
+                        new TreeNode(5)),
+                new TreeNode(3,
+                        new TreeNode(6),
+                        new TreeNode(7)));
+
+        TreeNode a1 = new TreeNode(3,
+                null,
+                new TreeNode(2));
+
+        TreeNode b = new TreeNode(4,
+                new TreeNode(8),
+                new TreeNode(9));
+
+        TreeNode b1 = new TreeNode(3,
+                null,
+                new TreeNode(2, new TreeNode(2), null));
+
+        System.out.println(q.isSubStructure(a, b));
     }
 }
