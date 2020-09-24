@@ -49,7 +49,7 @@ public class Q47 {
      */
     public List<List<Integer>> permuteUnique1(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> perm = new ArrayList<Integer>();
+        List<Integer> perm = new ArrayList<>();
         vis = new boolean[nums.length];
         Arrays.sort(nums);
         backtrack(nums, ans, 0, perm);
