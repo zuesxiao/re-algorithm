@@ -1,8 +1,7 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer38;
-
-import java.util.Arrays;
+import com.xiaoling.common.TreeNode;
+import com.xiaoling.leetcode.solution.Q106;
 
 /**
  * @author xiaoling
@@ -10,8 +9,8 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        Offer38 q = new Offer38();
+        Q106 q = new Q106();
 
-        System.out.println(Arrays.toString(q.permutation("aca")));
+        TreeNode tree = q.buildTree(new int[]{9,3,15,20,7}, new int[]{9,15,7,20,3});
     }
 }

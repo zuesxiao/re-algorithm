@@ -1,4 +1,4 @@
-package com.xiaoling.leetcode.offer;
+package com.xiaoling.leetcode.solution;
 
 import com.xiaoling.common.TreeNode;
 
@@ -6,12 +6,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 剑指 Offer 07. 重建二叉树
- * https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/
+ * 105. 从前序与中序遍历序列构造二叉树
+ * https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
  *
  * @author xiaoling
  */
-public class Offer07 {
+public class Q105 {
     Map<Integer, Integer> inorderMap = new HashMap<>();
     int preIndex = 0;
 
