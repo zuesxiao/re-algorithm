@@ -1,7 +1,6 @@
 package com.xiaoling;
 
-import com.xiaoling.common.TreeNode;
-import com.xiaoling.leetcode.solution.Q106;
+import com.xiaoling.leetcode.offer.Offer33;
 
 /**
  * @author xiaoling
@@ -9,8 +8,8 @@ import com.xiaoling.leetcode.solution.Q106;
 public class Main {
 
     public static void main(String[] args) {
-        Q106 q = new Q106();
+        Offer33 q = new Offer33();
 
-        TreeNode tree = q.buildTree(new int[]{9,3,15,20,7}, new int[]{9,15,7,20,3});
+        boolean res = q.verifyPostorder(new int[]{4,6,7,5});
     }
 }
