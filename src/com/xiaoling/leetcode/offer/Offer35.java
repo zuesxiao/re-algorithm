@@ -1,7 +1,6 @@
 package com.xiaoling.leetcode.offer;
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author xiaoling
@@ -12,7 +11,7 @@ public class Offer35 {
             return null;
         }
 
-        Map<Node, Node> map = new HashMap<>();
+        HashMap<Node, Node> map = new HashMap<>();
 
         return null;
     }
