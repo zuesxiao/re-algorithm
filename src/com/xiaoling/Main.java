@@ -1,6 +1,6 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer33;
+import com.xiaoling.leetcode.offer.Offer40;
 
 /**
  * @author xiaoling
@@ -8,8 +8,7 @@ import com.xiaoling.leetcode.offer.Offer33;
 public class Main {
 
     public static void main(String[] args) {
-        Offer33 q = new Offer33();
-
-        boolean res = q.verifyPostorder(new int[]{4,6,7,5});
+        Offer40 q = new Offer40();
+        q.getLeastNumbers(new int[]{3, 2, 1}, 2);
     }
 }

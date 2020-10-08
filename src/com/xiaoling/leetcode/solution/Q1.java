@@ -13,7 +13,7 @@ public class Q1 {
         for (int i = 0; i < nums.length; i++) {
             int remain = target - nums[i];
             if (!locations.containsKey(remain)) {
-                locations.put(remain, i);
+                locations.put(nums[i], i);
             } else {
                 return new int[]{locations.get(remain), i};
             }
