@@ -6,6 +6,9 @@ import com.xiaoling.common.ListNode;
 import java.util.Stack;
 
 /**
+ * 剑指 Offer 06. 从尾到头打印链表
+ * https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
+ *
  * @author xiaoling
  */
 public class Offer06 {

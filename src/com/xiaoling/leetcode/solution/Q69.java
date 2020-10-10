@@ -1,6 +1,9 @@
 package com.xiaoling.leetcode.solution;
 
 /**
+ * 69. x 的平方根
+ * https://leetcode-cn.com/problems/sqrtx/
+ *
  * @author xiaoling
  */
 public class Q69 {
