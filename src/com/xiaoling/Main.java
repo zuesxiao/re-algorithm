@@ -1,6 +1,6 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer40;
+import com.xiaoling.leetcode.offer.Offer44;
 
 /**
  * @author xiaoling
@@ -8,7 +8,7 @@ import com.xiaoling.leetcode.offer.Offer40;
 public class Main {
 
     public static void main(String[] args) {
-        Offer40 q = new Offer40();
-        q.getLeastNumbers(new int[]{3, 2, 1}, 2);
+        Offer44 q = new Offer44();
+        System.out.println(q.findNthDigit(1000000000));
     }
 }
