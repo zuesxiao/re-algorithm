@@ -235,7 +235,7 @@ public class Sorts {
     private int[] quickSort(int[] nums, int left, int right) {
         if (left < right) {
             int index = split(nums, left, right);
-            quickSort(nums, 0, index - 1);
+            quickSort(nums, left, index - 1);
             quickSort(nums, index + 1, right);
         }
         return nums;
