@@ -1,19 +1,17 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer57;
-
-import java.util.Arrays;
+import com.xiaoling.leetcode.offer.Offer61;
 
 /**
+ * 剑指 Offer 61. 扑克牌中的顺子
+ * https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
+ *
  * @author xiaoling
  */
 public class Main {
 
     public static void main(String[] args) {
-        Offer57 offer57 = new Offer57();
-        int[][] res = offer57.findContinuousSequence(100000);
-        for (int i = 0; i < res.length; i++) {
-            System.out.println(Arrays.toString(res[i]));
-        }
+        Offer61 q = new Offer61();
+        System.out.println(q.isStraight(new int[]{0, 0, 2, 2, 5}));
     }
 }
