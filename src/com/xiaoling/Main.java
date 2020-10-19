@@ -13,5 +13,6 @@ public class Main {
     public static void main(String[] args) {
         Offer61 q = new Offer61();
         System.out.println(q.isStraight(new int[]{0, 0, 2, 2, 5}));
+        System.out.println(-4>>3);
     }
 }
