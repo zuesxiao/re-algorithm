@@ -1,6 +1,6 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.offer.Offer61;
+import com.xiaoling.leetcode.solution.Q844;
 
 /**
  * 剑指 Offer 61. 扑克牌中的顺子
@@ -11,8 +11,7 @@ import com.xiaoling.leetcode.offer.Offer61;
 public class Main {
 
     public static void main(String[] args) {
-        Offer61 q = new Offer61();
-        System.out.println(q.isStraight(new int[]{0, 0, 2, 2, 5}));
-        System.out.println(-4>>3);
+        Q844 q = new Q844();
+        System.out.println(q.backspaceCompare("y#fo##f", "y#f#o##f"));
     }
 }
