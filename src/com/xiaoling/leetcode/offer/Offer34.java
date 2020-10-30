@@ -25,17 +25,10 @@ public class Offer34 {
             return;
         }
 
-        if (node.left == null && node.right == null) {
-            if (sum == node.val) {
-                temp.add(node.val);
-                res.add(new ArrayList<>(temp));
-                temp.remove(temp.size() - 1);
-            }
-            return;
-        }
-
         temp.add(node.val);
-
+        if (node.left == null && node.right == null && sum == node.val) {
+            res.add(new ArrayList<>(temp));
+        }
         dfs(node.left, sum - node.val);
         dfs(node.right, sum - node.val);
         temp.remove(temp.size() - 1);

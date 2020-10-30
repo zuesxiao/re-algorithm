@@ -1,6 +1,9 @@
 package com.xiaoling.leetcode.offer;
 
 /**
+ * 剑指 Offer 45. 把数组排成最小的数
+ * https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/
+ *
  * @author xiaoling
  */
 public class Offer45 {
@@ -43,7 +46,7 @@ public class Offer45 {
                 j--;
             }
 
-            if(i > j){
+            if (i > j) {
                 break;
             }
 
