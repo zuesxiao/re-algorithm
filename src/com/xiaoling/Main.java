@@ -1,17 +1,29 @@
 package com.xiaoling;
 
-import com.xiaoling.leetcode.solution.Q844;
-
 /**
- * 剑指 Offer 61. 扑克牌中的顺子
- * https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
- *
  * @author xiaoling
  */
 public class Main {
 
     public static void main(String[] args) {
-        Q844 q = new Q844();
-        System.out.println(q.backspaceCompare("y#fo##f", "y#f#o##f"));
+        Trie trie = new Trie();
+
+        trie.add("abc");
+        System.out.println(trie.find("abc"));
+        System.out.println(trie.find("ab"));
+        System.out.println(trie.find("abcd"));
+        trie.add("ab");
+        System.out.println(trie.find("abc"));
+
+        trie.add("ab");
+        trie.delete("ab");
+        System.out.println(trie.find("ab"));
+        trie.delete("ab");
+        System.out.println(trie.find("ab"));
+
+        trie.add("");
+        System.out.println(trie.find(""));
+        trie.delete("");
+        System.out.println(trie.find(""));
     }
 }

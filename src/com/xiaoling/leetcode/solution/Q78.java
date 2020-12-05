@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 78. 子集
+ * https://leetcode-cn.com/problems/subsets/
+ *
  * @author xiaoling
  */
 public class Q78 {

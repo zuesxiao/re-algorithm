@@ -3,6 +3,9 @@ package com.xiaoling.leetcode.offer;
 import com.xiaoling.common.TreeNode;
 
 /**
+ * 剑指 Offer 26. 树的子结构
+ * https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/
+ *
  * @author xiaoling
  */
 public class Offer26 {
